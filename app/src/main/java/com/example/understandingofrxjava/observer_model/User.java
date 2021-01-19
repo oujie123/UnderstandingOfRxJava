@@ -1,7 +1,5 @@
 package com.example.understandingofrxjava.observer_model;
 
-import android.util.Log;
-
 /**
  * @Author: Jack Ou
  * @CreateDate: 2020/7/19 18:58
@@ -27,6 +25,6 @@ public class User implements Observer {
     }
 
     private void readMessage() {
-        Log.d(TAG, name + "readMessage: " + message);
+        System.out.println(name + " read Message:  " + message);
     }
 }

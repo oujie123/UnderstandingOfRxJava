@@ -1,7 +1,5 @@
 package com.example.understandingofrxjava.observer_model;
 
-import android.util.Log;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,7 +40,7 @@ public class ObservableImpl implements Observable {
     @Override
     public void pushMessage(String message) {
         this.message = message;
-        Log.d(TAG, "pushMessage: " + message);
+        System.out.println("pushMessage: " + message);
         //有消息来了就通知
         notifyObservers();
     }

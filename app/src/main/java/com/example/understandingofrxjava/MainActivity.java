@@ -1,8 +1,8 @@
 package com.example.understandingofrxjava;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.understandingofrxjava.observer_model.Observable;
 import com.example.understandingofrxjava.observer_model.ObservableImpl;
