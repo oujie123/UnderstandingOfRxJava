@@ -19,7 +19,7 @@
         <activity android:name=".Main2Activity" />
         <activity android:name=".MainActivity">
         </activity>
-        <activity android:name=".rxjava.DownloadActivity" />
+        <activity android:name=".rxjava.DownloadActivity"/>
     </application>
 
 </manifest>
